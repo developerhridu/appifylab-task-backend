@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BuddyScript.Api/BuddyScript.Api.csproj" />
+    <Project Path="src/BuddyScript.Application/BuddyScript.Application.csproj" />
+    <Project Path="src/BuddyScript.Domain/BuddyScript.Domain.csproj" />
+    <Project Path="src/BuddyScript.Infrastructure/BuddyScript.Infrastructure.csproj" />
+  </Folder>
+</Solution>

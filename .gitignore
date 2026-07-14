@@ -1,0 +1,57 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+build/
+out/
+publish/
+*.dll
+*.exe
+*.pdb
+
+# .NET / MSBuild
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.binlog
+msbuild.log
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Test / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# EF Core
+*.db
+*.db-shm
+*.db-wal
+
+# OS noise
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Secrets — appsettings.json is intentionally committed (contains config).
+# Ignore machine-local overrides and any exported user-secrets.
+appsettings.*.local.json
+secrets.json
+*.env
+.env
